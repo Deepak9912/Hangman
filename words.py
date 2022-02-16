@@ -1,1 +1,0 @@
-words = ["near", "announce", "size", "amusement", "safe", "dynamic", "shaky", "boast", "pass", "ancient", "enormous", "shake", "wine", "skinny", "elephant", "glass", "travel", "phone", "reject", "emotion", "stress", "marriage", "calculate", "decide", "grumpy", "foolish", "inexpensive", "squirrel"]
