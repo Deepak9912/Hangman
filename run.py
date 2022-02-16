@@ -13,4 +13,9 @@ def get_random_Word(words):
     """
     print(random.choice(words))
 
+def guess_the_word():
+    """
+    it will allow user to guess the letters which match the word
+    """
+
 get_random_Word():
