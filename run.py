@@ -72,10 +72,10 @@ def get_hangman():
 
 def guess_the_letter(guessedletter):
     counter = 0
-    correct_letter = 0
-    for guess in guessedletter:
+    correct_letter = 0   # correct letters guessed
+    for guess in random_Word:
         if(guess in guessedletter):
-            print(random_Word[counter], end " ")
+            print(random_Word[counter], end=" ")
             correct_letter += 1
         else: 
             print("_", " ")
@@ -83,5 +83,6 @@ def guess_the_letter(guessedletter):
     
     return correct_letter
 
+def print_line_under_word():
+    print("\r")
 
-get_random_word()
