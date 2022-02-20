@@ -5,15 +5,40 @@ def get_randomword():
     """
     the function gets random words from the word list
     """
-    random_word = random.choice(words)
+    random_word = random.choice(words)  # gets random word from the list
+    # print(random_word.upper())
 
-    print(random_word.upper())
+    return random_word.upper()   # it will return the random word in uppercase
 
 
-def get_hangman(incorrect_answer):
+
+def hangman():
     """
-    the function will print hangman for incorrect answers    
+    the function defines hangman   
     """
+    random_word = get_randomword(words)
+    guessed_letters = set(random_word)  # it will keep a track of all the letters in the random word
+    letters_selected_by_user = set() # it will keep a track of letter selected by the user
+
+    #user input
+    user_input_letter = input("guess a letter: ").upper() 
+
+    if user_input_letter in guessed_letters:
+        user_input_letter.add(guessed_letters)
+    elif:
+        user_input_letter.add(letters_selected_by_user)
+    else:
+        print("invalid character, please try again...")
+
+
+
+# getting an input from the user
+get_user_input = input("Make a guess...")
+print(get_user_input)
+
+
+
+def print_hangman():
     if incorrect_answer == 0:
         print("\n+===+")
         print("      |")
@@ -56,8 +81,5 @@ def get_hangman(incorrect_answer):
         print("/|\   |")
         print("/ \   |")
         print("   ===+")
-
-get_hangman(incorrect_answer)
-
 
 
