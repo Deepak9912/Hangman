@@ -31,10 +31,8 @@ def hangman():
 
         if user_input_letter in guessed_letters:
             user_input_letter.add(guessed_letters)
-        elif:
-            user_input_letter.add(letters_selected_by_user)
         else:
-            print("invalid character, please try again...")
+            user_input_letter.add(letters_selected_by_user)
 
 
 
