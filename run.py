@@ -1,5 +1,5 @@
 import random
-from hangman_structure import print_hangman
+from hangman_structure import get_hangman
 words = ["announce", "amusement", "ankle"]
 
 
@@ -19,7 +19,7 @@ def update_correctguess_list():
     print()
 
 update_correctguess_list()
-
+get_hangman(len(incorrect_guess))
 
 while True:
 
@@ -37,11 +37,13 @@ while True:
     else:
         if user_input not in incorrect_guess:
             incorrect_guess.append(user_input)
+            get_hangman(len(incorrect_guess))
+            
         else:
             print("You already guessed it, please try again...")
         print(incorrect_guess)
     
-    if len(incorrect_guess) > 6:
+    if len(incorrect_guess) > 5:
         print("You lose, please try again")
         print('correct word is ', random_word)
         break
