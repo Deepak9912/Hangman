@@ -39,6 +39,12 @@ while True:
         else:
             print("You already guessed it, please try again...")
         print(incorrect_guess)
+    
+    if len(incorrect_guess) > 6:
+        print("You lose, please try again")
+        print('correct word is ', random_word)
+        break
+    
     if '_' not in correct_guess:
         print("Congratulations!!!, you have guessed the correct letter")
         break
