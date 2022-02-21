@@ -1,4 +1,5 @@
 import random
+from hangman_structure import print_hangman
 words = ["announce", "amusement", "ankle"]
 
 
