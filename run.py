@@ -1,39 +1,26 @@
 import random
 words = ["announce", "amusement", "ankle"]
 
-def get_randomword(words):
-    """
-    the function gets random words from the word list
-    """
-    global random_word
-    random_word = random.choice(words)  # gets random word from the list
-    # print(random_word.upper())
 
-    return random_word.upper()   # it will return the random word in uppercase
+random_word = random.choice(words)  # it will allow me to pick random words from the words list
+print("Hint: The word has", len(random_word), "letters")  # it will print a statement with the length of word
+print("================================")
 
+correct_guess = ["_"] * len(random_word)  # an empty list which will collect the correct guess words from the user
+incorrect_guess = []  # it will collect wrong letters guessed by the user
 
+while True:
 
-def hangman():
-    """
-    it allows user to guess a letter
-    if the letter is in the random word, it will be printed on the blank space
-    if the letter is wrong, hangman will display  
-    """
-    random_word = random.choice(words)
-    right_guess = []
-    wrong_guess = []
+    user_input = input("type a letter: ")
+    print("=====================================")
 
-    while True:
+    if user_input in random_word:
+        correct_guess.append(user_input)
+        print("Correct guess ", correct_guess)
+    else:
+        incorrect_guess.append(user_input)
+        print("Incorrect guess ", incorrect_guess)
 
-        user_input = input("type a letter: ")
-        print("=====================================")
-
-        if user_input in random_word:
-            right_guess.append(user_input)
-            print("Correct guess ", right_guess)
-        else:
-            wrong_guess.append(user_input)
-            print("Incorrect guess ", wrong_guess)
 
 
 hangman()
