@@ -1,6 +1,6 @@
 import random
 from hangman_structure import get_hangman
-words = ["announce", "amusement", "ankle"]
+from word import words
 
 
 random_word = random.choice(words)  # it will allow me to pick random words from the words list
