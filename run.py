@@ -9,6 +9,16 @@ print("================================")
 correct_guess = ["_"] * len(random_word)  # an empty list which will collect the correct guess words from the user
 incorrect_guess = []  # it will collect wrong letters guessed by the user
 
+def update_correctguess_list():
+    """
+    it will print out the correct letters in the correct_guess list
+    """
+    for i in correct_guess:
+        print(i, end = ' ')
+    print()
+
+update_correctguess_list()
+
 while True:
 
     user_input = input("type a letter: ")
@@ -23,4 +33,3 @@ while True:
 
 
 
-hangman()
