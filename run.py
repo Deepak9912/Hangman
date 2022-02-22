@@ -15,7 +15,7 @@ def update_correctguess_list():
     it will print out the correct letters in the correct_guess list
     """
     for i in correct_guess:
-        print(i, end = ' ') # end = ' ' will print the letters horizontally
+        print(i, end = ' ') # end = ' ' will print the letters horizontally rather than vertically
     print()
 
 update_correctguess_list()
