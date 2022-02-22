@@ -34,16 +34,16 @@ while True:
             index += 1
         update_correctguess_list()
 
-    else:
-        if user_input not in incorrect_guess:
+    else: 
+        if user_input not in incorrect_guess:  # nested if statement when user input doesn't match the random word, then it will display hangman
             incorrect_guess.append(user_input)
             get_hangman(len(incorrect_guess))
             
-        else:
+        else: # another nested element if user selects already chosen input, it will show a message that letter already guessed
             print("You already guessed it, please try again...")
         print(incorrect_guess)
     
-    if len(incorrect_guess) > 5:
+    if len(incorrect_guess) > 5:  # maximum trial limited to 5 so that user doesn't have multiple options and it break out of the while after 5th trial
         print("You lose, please try again")
         print('correct word is ', random_word)
         break
