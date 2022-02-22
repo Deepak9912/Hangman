@@ -1,31 +1,14 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hangman!
+Hangman is a word game where the goal is to guess thw words until you can guess the complete word. The user will be presented with a number of blank spaces representing the missing letters that they will need to find.
 
-Welcome Deepak9912,
+Use the keyboard to guess a letter (I recommend starting with vowels).
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+If your chosen letter exists in the answer, then all places in the answer where that letter appear will be revealed.
 
-## Reminders
+After you've revealed several letters, you may be able to guess what the answer is and fill in the remaining letters.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+User can only guess six wrong letters, every wrong guess and user will lose one life and hangman will appear piece by piece.
 
-## Creating the Heroku app
+If user cannot guess the word and exceeds the lives, the game will be over and hangman will die.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+The live link can be found [Hangman](https://hang-man22.herokuapp.com/)
