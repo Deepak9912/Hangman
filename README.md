@@ -64,3 +64,14 @@ In HEROKU after creating account:
 9. Scroll down to Automatic and Manual Deploys sections. I clicked on Automatic Deployment so that my changes that I push to github automatically updates in Heroku.
 10. Then in the Manual Deploy section, press Deploy Branch.
 11. After project has been deployed successfully I clicked the View-button to see the program run in the terminal.
+
+## Credits
+_____________________________________
+Special thank you to Dave Horrocks for his support in Slack and the Slack community that volontereed and gave thorough feedback on my Peer Code Review post.
+
+Below resources were used to improve my skills and find assistance:
+
+1. [Tech with mike](https://www.youtube.com/channel/UCnvj-t_xNcB0ap82KoEm8mQ) For tutorial on hangman.
+2. [Net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) For python lists, if else statements and OOP (Object oriented programming).
+3. [Kylie Ying](https://www.youtube.com/channel/UCKMjvg6fB6WS5WrPtbV4F5g) For tutorial on hangman.
+
