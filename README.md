@@ -14,3 +14,13 @@ If user cannot guess the word and exceeds the lives, the game will be over and h
 The live link can be found [Hangman](https://hang-man22.herokuapp.com/)
 
 ![hangman](https://user-images.githubusercontent.com/93731898/155214445-28ca9e32-c1b7-46d1-a33c-6678e9b6cf4e.PNG)
+
+## How to play
+
+* User will be presented with the hangman game, with a hint, number of letters in the word and blank spaces "_" for user to guess.
+* If the user selects the letter which matches with any letter in the word, the "_" will be replaced by the letter.
+* If user can guess the answer based on guessed letters, a message will appear to congratulate the user.
+* If user make a wrong guess, user will lose one life for every incorrect guess.
+* User has 6 lives, after every wrong guess, hangman will appear piece by piece.
+* After the sixth wrong guess, user hangman will and user will lose the game.
+
