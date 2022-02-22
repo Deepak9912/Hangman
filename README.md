@@ -38,3 +38,29 @@ The live link can be found [Hangman](https://hang-man22.herokuapp.com/)
 
 ## Validator Testing
 I ran through my file in [PEP8 Online](http://pep8online.com/) No errors occured.
+
+## Deployment
+I followed below steps when deploying my project to Heroku, based on Code Institute instructions:
+
+1. Remove un-needed import features in run.py file
+2. Add to requirements.txt file:-
+* pip3 freeze > requirements.txt
+* Commit changes to Github:
+* git commit -m "Add requirements for deployment”
+
+In HEROKU after creating account:
+
+1. "Create new App"
+2. Give the App a unique name and enter region
+3. Click on "Create App"
+4. Click on "Settings" on your new App Dashboard
+5. Scroll down to Config Vars where in my instance I only inserted KEY: PORT and VALUE: 8000 since I have no creds.json files to add.
+6. Press Add-button
+7. Scroll down to Buildpacks and press the icon for Python, click Save Changes, then press the icon for Nodejs and save changes. These Buildpacks need to be in below order:
+
+    Python
+    NodeJS
+8. Go to Deploy section tab and scroll down to Deployment Method. I connected to my Github pages and could thereafter search for my Github Repository "Parents Allowance Calculator" and then click connect.
+9. Scroll down to Automatic and Manual Deploys sections. I clicked on Automatic Deployment so that my changes that I push to github automatically updates in Heroku.
+10. Then in the Manual Deploy section, press Deploy Branch.
+11. After project has been deployed successfully I clicked the View-button to see the program run in the terminal.
