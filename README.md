@@ -12,3 +12,5 @@ User can only guess six wrong letters, for every wrong guess, user will lose one
 If user cannot guess the word and exceeds the lives, the game will be over and hangman will die.
 
 The live link can be found [Hangman](https://hang-man22.herokuapp.com/)
+
+![hangman](https://user-images.githubusercontent.com/93731898/155214445-28ca9e32-c1b7-46d1-a33c-6678e9b6cf4e.PNG)
