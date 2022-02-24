@@ -19,6 +19,8 @@ The live link can be found [Hangman](https://hang-man22.herokuapp.com/)
 
 * If user cannot guess the word and exceeds the lives, the game will be over and hangman will die.
 
+## Features
+The game features a welcome message to the user and when user starts the game, it will ask user to type their name, once name is entered, user will get a hello message and the game will start.
 
 ## Technologies used
 * [Python](https://www.python.org/)
