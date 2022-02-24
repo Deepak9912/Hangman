@@ -2,6 +2,16 @@ import random
 from hangman_structure import get_hangman
 from word import words
 
+
+def welcome_user():
+    """
+    This function allows people to input their name.
+    """
+    name = input('Please type your name\n')
+    print(f'Hello {name}!')
+
+welcome_to_game()
+
 random_word = random.choice(
     words
 )  # it will allow me to pick random words from the words list
