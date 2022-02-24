@@ -10,7 +10,7 @@ def welcome_user():
     name = input('Please type your name\n')
     print(f'Hello {name}!')
 
-welcome_to_game()
+welcome_user()
 
 random_word = random.choice(
     words
