@@ -24,8 +24,26 @@ The game features a welcome message to the user and when user starts the game, i
 
 ![start](https://user-images.githubusercontent.com/93731898/155603743-9e3539ec-d004-4b39-9eba-26b276d467b4.PNG)
 
-When the user type their name, they will get a hello message addressting their name. And the game will begin.
+When the user type their name, they will get a hello message addressting their name. And the game will begin. User will also get a hint about the length of the word.
+
 ![game-begin](https://user-images.githubusercontent.com/93731898/155603982-4c37bfd8-9192-4e1e-8283-b78ec60db81f.PNG)
+
+If the letter guessed by the user matches the random word, it will appear on the blank space where that letter belongs. In the following screenshot, i guessed letter i, and it appeared on the blank space.
+
+![3](https://user-images.githubusercontent.com/93731898/155757179-c9e9cb4c-4978-4c0d-887b-2b6573db481e.PNG)
+
+
+If the letter guessed by the user is incorrect, than hangman pic will display piece by piece, starting from head to legs. Also the wrong letter will be displayed to the user. If the user selects the letter, already chosen, they will get a message that letter was already chosen and please try again. Following screenshot displays it.
+
+![4](https://user-images.githubusercontent.com/93731898/155757790-61b0f661-bf25-487c-9d16-af31c5ee6b5b.PNG)
+
+If user is unable to guess the word in 6 attempts, then user will lose the game and hangman will die. User will also get the correct answer as shown below. Ans user will need to click on run the program again and play the game again.
+
+![five](https://user-images.githubusercontent.com/93731898/155758231-241dcc5a-a3ff-4917-87b0-183307a692ad.PNG)
+
+If user is able to guess the word, before 6th attempt, user will get a congratulations message and they will win the game.
+
+![six](https://user-images.githubusercontent.com/93731898/155758591-4b8419ab-af5c-4c8d-a009-636e3f16590f.PNG)
 
 
 ## Technologies used
