@@ -54,8 +54,15 @@ If user is able to guess the word, before 6th attempt, user will get a congratul
 * [Gitpod](https://www.gitpod.io/)
 
 ## Testing
+
+* Testing was done throughout the project mainly by running the program in the terminal as well as python debugger. I commited the codes on github after writing every new list or function.
 * I used the deployed site to manually entering correct and incorrect data to see how my program responded.
-* I used python3 run.py after writing new code to test if they work.
+* Tested in both Gitpod terminal and CI Heroku terminal.
+* Friends and family members were asked to review game and content to point out any bugs and/or user experience issues.
+
+## Accessibility
+1. There are no images on the site.
+2. No color was used in creating this project.
 
 ## Validator Testing
 I ran through my file in [PEP8 Online](http://pep8online.com/) No errors occured.
