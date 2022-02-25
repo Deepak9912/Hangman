@@ -32,7 +32,8 @@ incorrect_guess = []
 
 def update_correctguess_list():
     """
-    it will print out the correct letters in the correct_guess list
+    it will print out the correct letters in the
+    correct_guess list
     """
     for i in correct_guess:
         print(i, end=" ")
