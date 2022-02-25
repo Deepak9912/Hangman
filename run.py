@@ -13,16 +13,14 @@ def welcome_user():
 print('Welcome to Hangman')
 welcome_user()
 
-random_word = random.choice(
-    words
-)  # it will allow me to pick random words from the words list
+random_word = random.choice(words)
 print(
-    "Hint: The word has", len(random_word), "letters"
-)  # it will print a statement with the length of word
+    "Hint: The word has", len(random_word), "letters")
 print("================================")
 
-correct_guess = ["_"] * len(random_word)  
-incorrect_guess = []  # it will collect wrong letters guessed by the user
+correct_guess = ["_"] * len(random_word)
+# below list collect wrong letters guessed by the user
+incorrect_guess = []
 
 
 def update_correctguess_list():
@@ -51,19 +49,15 @@ while True:
         update_correctguess_list()
 
     else:
-        if (
-            user_input not in incorrect_guess
-        ):  # nested if statement when user input doesn't match the random word, then it will display hangman
+        if (user_input not in incorrect_guess):
             incorrect_guess.append(user_input)
             get_hangman(len(incorrect_guess))
 
-        else:  # another nested element if user selects already chosen input, it will show a message that letter already guessed
+        else:
             print("You already guessed it, please try again...")
         print(incorrect_guess)
 
-    if (
-        len(incorrect_guess) > 5
-    ):  # maximum trial limited to 5 so that user doesn't have multiple options and it break out of the while after 5th trial
+    if (len(incorrect_guess) > 5):
         print("You lose, please try again")
         print("correct word is ", random_word)
         break
