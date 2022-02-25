@@ -5,10 +5,17 @@ from word import words
 
 def welcome_user():
     """
-    This function allows people to input their name.
+    This function allows user to input their name.
     """
-    name = input('Please type your name\n')
-    print(f'Hello {name}!')
+    while True:
+        try:
+            name = input('Please type your name\n')
+            print(f'Hello, {name}!')
+            break
+        except ValueError:
+            print("Name must contain letters")
+            print("Please try again")
+
 
 print('Welcome to Hangman')
 welcome_user()
