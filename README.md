@@ -1,9 +1,10 @@
 # Hangman!
 Hangman is a word game where the goal is to guess the words until you can guess the complete word. The user will be presented with a number of blank spaces representing the missing letters that they will need to find.
 
-The live link can be found [Hangman](https://hang-man22.herokuapp.com/)
+The live link can be found here [Hangman](https://hang-man22.herokuapp.com/)
 
-![hangman](https://user-images.githubusercontent.com/93731898/155214445-28ca9e32-c1b7-46d1-a33c-6678e9b6cf4e.PNG)
+![start](https://user-images.githubusercontent.com/93731898/155842329-d86935fa-7d1a-4a80-b7f2-229ec6935356.PNG)
+
 
 
 ## How to play
@@ -20,9 +21,10 @@ The live link can be found [Hangman](https://hang-man22.herokuapp.com/)
 * If user cannot guess the word and exceeds the lives, the game will be over and hangman will die.
 
 ## Features
-The game features a welcome message to the user and when user starts the game, it will ask user to type their name.
+The game features a welcome message to the user and when user starts the game, it will ask user to type their name. The username must be letters only, if user puts a number, they will get an error message that name must be letters only.
 
-![start](https://user-images.githubusercontent.com/93731898/155603743-9e3539ec-d004-4b39-9eba-26b276d467b4.PNG)
+![one](https://user-images.githubusercontent.com/93731898/155842602-1aeb20fb-e7bf-4ac9-8533-a72c1db4ba33.PNG)
+
 
 When the user type their name, they will get a hello message addressting their name. And the game will begin. User will also get a hint about the length of the word.
 
