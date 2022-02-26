@@ -1,5 +1,5 @@
 # Hangman!
-Hangman is a word game where the goal is to guess the words until you can guess the complete word. The user will be presented with a number of blank spaces representing the missing letters that they will need to find.
+Hangman is a word game where the goal is to guess the word until you can guess the complete word. The user will be presented with a number of blank spaces representing the missing letters that they will need to find.
 
 The live link can be found here [Hangman](https://hang-man22.herokuapp.com/)
 
@@ -14,7 +14,7 @@ The live link can be found here [Hangman](https://hang-man22.herokuapp.com/)
 
 * If your chosen letter exists in the answer, then all places in the answer where that letter appear will be revealed.
 
-* After you've revealed several letters, you may be able to guess what the answer is and fill in the remaining letters.
+* After you've guessed few letters, you may be able to guess what the answer is and fill in the remaining letters.
 
 * User can only guess six wrong letters, for every wrong guess, user will lose one life and hangman will appear piece by piece.
 
@@ -26,7 +26,7 @@ The game features a welcome message to the user and when user starts the game, i
 ![one](https://user-images.githubusercontent.com/93731898/155842602-1aeb20fb-e7bf-4ac9-8533-a72c1db4ba33.PNG)
 
 
-When the user type their name, they will get a hello message addressting their name. And the game will begin. User will also get a hint about the length of the word.
+When the user type their name, they will get a hello message addressing their name. And the game will begin. User will also get a hint about the length of the word.
 
 ![game-begin](https://user-images.githubusercontent.com/93731898/155603982-4c37bfd8-9192-4e1e-8283-b78ec60db81f.PNG)
 
@@ -97,7 +97,6 @@ In HEROKU after creating account:
 
 ## Credits
 _____________________________________
-Special thank you to Dave Horrocks for his support in Slack and the Slack community that volontereed and gave thorough feedback on my Peer Code Review post.
 
 Below resources were used to improve my skills and find assistance:
 
@@ -105,3 +104,6 @@ Below resources were used to improve my skills and find assistance:
 2. [Net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) For python lists, if else statements and OOP (Object oriented programming).
 3. [Kylie Ying](https://www.youtube.com/channel/UCKMjvg6fB6WS5WrPtbV4F5g) For tutorial on hangman.
 
+## Special Thanks
+_______________________
+Special thanks to my mentor Victor Miclovich, Slack Community, Kasia, Christine from tutor support and my work colleague  Angel for their assistance throughout this project.
