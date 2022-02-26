@@ -37,10 +37,14 @@ incorrect_guess = []
 
 def update_correctguess_list():
     """
-    it will print out the correct letters in the
+    it will print the correct letters in the
     correct_guess list
     """
     for i in correct_guess:
+        """
+        end = " " will print letters one after other
+        and prevent from printing them vertically
+        """
         print(i, end=" ")
     print()
 
@@ -51,9 +55,14 @@ get_hangman(len(incorrect_guess))
 while True:
 
     user_input = input("type a letter: \n")
-    print("=====================================")
+    print("==============================")
 
     if user_input in random_word:
+        """
+        the loop below will check the correct letter
+        in the randomword and it will add at the correct
+        index
+        """
         index = 0
         for i in random_word:
             if i == user_input:
