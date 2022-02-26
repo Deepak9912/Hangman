@@ -7,14 +7,12 @@ def welcome_user():
     """
     This function allows user to input their name.
     """
-    while True:
-        try:
-            name = input('Please type your name\n')
-            print(f'Hello, {name}!')
-            break
-        except ValueError:
-            print("Name must contain letters")
-            print("Please try again")
+    
+    username = input("Enter Username: ")
+    if username.isalpha() is False:
+        print("Only Text allowed in Username")
+    else:
+        print("Welcome "+username)
 
 
 print('Welcome to Hangman')
