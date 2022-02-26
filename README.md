@@ -66,6 +66,13 @@ If user is able to guess the word, before 6th attempt, user will get a congratul
 1. There are no images on the site.
 2. No color was used in creating this project.
 
+## Issues and bugs found and fixed
+1. User Welcome message
+When i defined welcome_user() function, i wanted to avoid numbers and special characters in the name input, to make sure user use correct name and therefore i used isalpha() string in try and except method, but user could still put the number in the name input, i then declared username is None and used username input in while loop with the help of isalpha() string and the code worked.
+
+2. Update guessed letters side by side
+In the function update_correctguess_list(), when i tried for loop to iterate through correct and update them in the blank space, the correct guess letters were printed vertically rather than side by side, therefore i used end = " " and it removed the error.
+
 ## Validator Testing
 I ran through my file in [PEP8 Online](http://pep8online.com/) No errors occured.
 
