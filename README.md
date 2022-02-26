@@ -47,6 +47,8 @@ If user is able to guess the word, before 6th attempt, user will get a congratul
 
 ![six](https://user-images.githubusercontent.com/93731898/155758591-4b8419ab-af5c-4c8d-a009-636e3f16590f.PNG)
 
+## Future features
+I would like to add several options such as country name, movies, famous person in randon selection, so that when user selects the game, they get to know topic in the headline and then they start guessing the game.
 
 ## Technologies used
 * [Python](https://www.python.org/)
@@ -75,6 +77,8 @@ In the function update_correctguess_list(), when i tried for loop to iterate thr
 
 ## Validator Testing
 I ran through my file in [PEP8 Online](http://pep8online.com/) No errors occured.
+
+![pep8](https://user-images.githubusercontent.com/93731898/155856666-65680a60-77bf-4fca-a900-7a2b26b85556.PNG)
 
 ## Deployment
 I followed below steps when deploying my project to Heroku, based on Code Institute instructions:
