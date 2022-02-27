@@ -66,7 +66,7 @@ I would like to add several options such as country name, movies, famous person 
 
 ## Accessibility
 1. There are no images on the site.
-2. No color was used in creating this project.
+2. Thw whole project was built using python, therefore no color was used or CSS properties were used.
 
 ## Issues and bugs found and fixed
 1. User Welcome message
