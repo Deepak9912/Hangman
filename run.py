@@ -15,11 +15,11 @@ def welcome_user():
         username = input('Enter your name\n')
 
         if not username.isalpha():
-            print('Username must be characters only')
+            print('Username must be alphabets only')
             continue
         else:
-            print('welcome '+ username)
-            break;
+            print('welcome '+username)
+            break
 
 
 print('Welcome to Hangman')
