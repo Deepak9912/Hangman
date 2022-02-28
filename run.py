@@ -35,17 +35,17 @@ correct_guess = ["_"] * len(random_word)
 incorrect_guess = []
 
 
-def update_correctguess_list():
+def update_correct_guess_list():
     """
     it will print the correct letters in the
     correct_guess list
     """
-    for i in correct_guess:
-        print(i, end=" ")
+    for letter in correct_guess:
+        print(letter, end=" ")
     print()
 
 
-update_correctguess_list()
+update_correct_guess_list()
 get_hangman(len(incorrect_guess))
 
 while True:
@@ -54,15 +54,15 @@ while True:
     print("==============================")
 
     if user_input in random_word:
-        index = 0
+        INDEX = 0
         for i in random_word:
             if i == user_input:
-                correct_guess[index] = user_input
-            index += 1
-        update_correctguess_list()
+                correct_guess[INDEX] = user_input
+            INDEX += 1
+        update_correct_guess_list()
 
     else:
-        if (user_input not in incorrect_guess):
+        if user_input not in incorrect_guess:
             incorrect_guess.append(user_input)
             get_hangman(len(incorrect_guess))
 
@@ -70,7 +70,7 @@ while True:
             print("You already guessed it, please try again...")
         print(incorrect_guess)
 
-    if (len(incorrect_guess) > 5):
+    if len(incorrect_guess) > 5:
         print("You lose, please try again")
         print("correct word is ", random_word)
         break

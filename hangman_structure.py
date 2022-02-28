@@ -1,3 +1,8 @@
+"""
+file with hangman structure
+"""
+
+
 def get_hangman(x):
     """
     function to print hangman when user enters a wrong input

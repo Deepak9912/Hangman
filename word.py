@@ -1,3 +1,6 @@
+"""
+A list of random words
+"""
 words = [
     "announce",
     "amusement",
