@@ -41,10 +41,6 @@ def update_correctguess_list():
     correct_guess list
     """
     for i in correct_guess:
-        """
-        end = " " will print letters one after other
-        and prevent from printing them vertically
-        """
         print(i, end=" ")
     print()
 
@@ -58,11 +54,6 @@ while True:
     print("==============================")
 
     if user_input in random_word:
-        """
-        the loop below will check the correct letter
-        in the randomword and it will add at the correct
-        index
-        """
         index = 0
         for i in random_word:
             if i == user_input:
