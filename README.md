@@ -69,13 +69,13 @@ I would like to add several options such as country name, movies, famous person 
 2. Thw whole project was built using python, therefore no color was used or CSS properties were used.
 
 ## Issues and bugs found and fixed
-1. User Welcome message
+1. User Welcome message:  
 When i defined `welcome_user()` function, i wanted to avoid numbers and special characters in the name input, to make sure user use correct name and therefore i used `isalpha()` string in try and except method, but user could still put the number in the name input, i then declared username is None and used username input in while loop with the help of `isalpha()` string and the code worked.
 
-2. Update guessed letters side by side
+2. Update guessed letters side by side:  
 In the function `update_correctguess_list()`, when i tried for loop to iterate through correct and update them in the blank space, the correct guess letters were printed vertically rather than side by side, therefore i used `end = " "` and it removed the error.
 
-3. Capital letters did not work
+3. Capital letters did not work:  
 When i submitted my project to peer code review, fellow student advised me that when they input letters in capital letters, even though the letter belong to the word, it was still taken as wrong letter. Therefore i added `.lower()` to the `user_input` and the code worked.
 
 
