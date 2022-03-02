@@ -50,7 +50,7 @@ get_hangman(len(incorrect_guess))
 
 while True:
 
-    user_input = input("type a letter: \n")
+    user_input = input("type a letter: \n").lower()
     print("==============================")
 
     if user_input in random_word:
