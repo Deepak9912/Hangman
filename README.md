@@ -75,6 +75,10 @@ When i defined `welcome_user()` function, i wanted to avoid numbers and special 
 2. Update guessed letters side by side
 In the function `update_correctguess_list()`, when i tried for loop to iterate through correct and update them in the blank space, the correct guess letters were printed vertically rather than side by side, therefore i used `end = " "` and it removed the error.
 
+3. Capital letters did not work
+When i submitted my project to peer code review, fellow student advised me that when they input letters in capital letters, even though the letter belong to the word, it was still taken as wrong letter. Therefore i added `.lower()` to the `user_input` and the code worked.
+
+
 ## Validator Testing
 I ran through my file in [PEP8 Online](http://pep8online.com/) No errors occured.
 
