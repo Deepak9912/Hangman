@@ -48,8 +48,7 @@ If user is able to guess the word, before 6th attempt, user will get a congratul
 ![six](https://user-images.githubusercontent.com/93731898/155758591-4b8419ab-af5c-4c8d-a009-636e3f16590f.PNG)
 
 ## Lucid Chart
-![lucdchart](https://user-images.githubusercontent.com/93731898/156440699-c9656905-49f0-485e-ac45-4c59dbd72ce7.PNG)
-
+![lucidchart](https://user-images.githubusercontent.com/93731898/156441334-6c8ae63d-91cf-42c5-9146-12acf7625c26.PNG)
 
 ## Future features
 I would like to add several options such as country name, movies, famous person in random selection, so that when user selects the game, they get to know topic in the headline and then they start guessing the game.
