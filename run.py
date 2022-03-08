@@ -65,6 +65,7 @@ while True:
         if user_input not in incorrect_guess:
             incorrect_guess.append(user_input)
             get_hangman(len(incorrect_guess))
+            print(f'sorry, letter {user_input} is not in the word')
 
         else:
             print("You already guessed it, please try again...")
