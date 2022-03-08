@@ -6,7 +6,7 @@ from word import words
 def welcome_user():
     """
     This function allows user to input their name.
-    user cannot user numbers
+    user cannot use numbers
     username must have characters only
     """
     username = None
