@@ -45,23 +45,23 @@ def update_correct_guess_list():
     print()
 
 
-def allLetter():
+def all_letter_only():
+    """
+    this function will allow user to select
+    only letters and no character or numbers
+    """
     while True:
         user_input = input("type a letter: \n").lower()
         if not user_input.isalpha():
-            print('Error')
-        else:   
+            print('Error, please select a letter')
+        else:
             return user_input
 
 update_correct_guess_list()
 get_hangman(len(incorrect_guess))
 
-
-
 while True:
-    user_input = allLetter()
-    print("==============================")
-
+    user_input = all_letter_only()
     if user_input in random_word:
         INDEX = 0
         for i in random_word:
