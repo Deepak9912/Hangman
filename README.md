@@ -34,6 +34,10 @@ If the letter guessed by the user matches any of the letters in the word, the le
 
 ![3](https://user-images.githubusercontent.com/93731898/155757179-c9e9cb4c-4978-4c0d-887b-2b6573db481e.PNG)
 
+User can only guess a letter, if they use a number or a special character, then they will get an error message that they have to select a letter.
+
+![error](https://user-images.githubusercontent.com/93731898/157528188-24c980e0-e194-4f45-aa8e-b169fd052fb1.PNG)
+
 
 If the letter guessed by the user is incorrect, the hangman picture will be populated piece by piece, starting from head to the legs. Also, the wrong letter will be displayed to the user. If the user selects a letter that has already been chosen, the following message will appear "You already guessed it, please try again". The following screenshot displays the message.
 
