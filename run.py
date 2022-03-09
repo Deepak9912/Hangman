@@ -45,12 +45,21 @@ def update_correct_guess_list():
     print()
 
 
+def allLetter():
+    while True:
+        user_input = input("type a letter: \n").lower()
+        if not user_input.isalpha():
+            print('Error')
+        else:   
+            return user_input
+
 update_correct_guess_list()
 get_hangman(len(incorrect_guess))
 
-while True:
 
-    user_input = input("type a letter: \n").lower()
+
+while True:
+    user_input = allLetter()
     print("==============================")
 
     if user_input in random_word:
