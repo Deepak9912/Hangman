@@ -85,6 +85,8 @@ I have used `INDEX` with empty value and created a loop in `random_word` to upda
 4. Capital letters did not work:  
 When I submitted my project to the peer code review, a fellow student advised me that when they input letters in capitals, even though the letter belongs to the word, it was read as the wrong letter. Therefore i added `.lower()` to the `user_input` and the code worked.
 
+5. User selection:
+I realised user was able to select numbers and special characters in the input and i wanted to avoid that, therefore i created another function `all_letter_only` and used `isalpha()` string with if statement and the code worked.
 
 ## Validator Testing
 I ran through my file in [PEP8 Online](http://pep8online.com/) No errors occured.
