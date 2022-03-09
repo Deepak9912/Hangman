@@ -51,11 +51,11 @@ def all_letter_only():
     only letters and no character or numbers
     """
     while True:
-        user_input = input("type a letter: \n").lower()
-        if not user_input.isalpha():
+        user_input_letter = input("type a letter: \n").lower()
+        if not user_input_letter.isalpha():
             print('Error, please select a letter')
         else:
-            return user_input
+            return user_input_letter
 
 
 update_correct_guess_list()
